@@ -1,7 +1,7 @@
 package com.example.demo.controller;
 
 import com.example.demo.request.UserRequest;
-import com.example.demo.response.MessageResponse;
+import com.example.demo.response.util.MessageResponse;
 import com.example.demo.response.UserResponse;
 import com.example.demo.response.list.UserResponseList;
 import com.example.demo.service.UserService;

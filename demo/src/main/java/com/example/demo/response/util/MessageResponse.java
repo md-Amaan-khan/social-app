@@ -1,4 +1,4 @@
-package com.example.demo.response;
+package com.example.demo.response.util;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,5 +1,6 @@
 package com.example.demo.model;
 
+import com.example.demo.model.security.RoleEntity;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,4 +17,7 @@ public class User {
     private String password;
     private String email;
 
+    @ManyToOne
+    @JoinColumn(name = "role")
+    private RoleEntity role;
 }

@@ -1,8 +1,7 @@
 package com.example.demo.controller;
 
 import com.example.demo.request.CommentRequest;
-import com.example.demo.response.CommentResponse;
-import com.example.demo.response.MessageResponse;
+import com.example.demo.response.util.MessageResponse;
 import com.example.demo.response.list.CommentResponseList;
 import com.example.demo.service.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,5 +44,4 @@ public class CommentController {
         service.deleteComment(CommentId);
     return new ResponseEntity<>(new MessageResponse("deleted successfully"),HttpStatus.OK);
     }
-
 }

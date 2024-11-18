@@ -1,7 +1,7 @@
 package com.example.demo.controller;
 
 import com.example.demo.request.PostRequest;
-import com.example.demo.response.MessageResponse;
+import com.example.demo.response.util.MessageResponse;
 import com.example.demo.response.PostResponse;
 import com.example.demo.response.list.PostResponseList;
 import com.example.demo.service.PostService;

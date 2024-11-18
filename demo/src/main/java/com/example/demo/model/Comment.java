@@ -14,6 +14,7 @@ public class Comment {
     private Long commentId;
     private String content;
     private String createdAt;
+
     @ManyToOne
     @JoinColumn(name = "postId")
     private Post post;
